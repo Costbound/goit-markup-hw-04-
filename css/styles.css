@@ -140,8 +140,9 @@ img {
     background-image:linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 1440px;;
-    margin: 0 auto;      /* Центрування фону для єкранів більше 1440px*/
+    max-width: 1440px;         /* Автоперевірка вимогає цей рядок */
+    margin: 0 auto;          /* Центрування фону і секції для екранів більше 1440px */
+    background-position: center;    /* Автоперевірка вимогає цей рядок */
 }
 .request-title {
     font-size: 56px;
